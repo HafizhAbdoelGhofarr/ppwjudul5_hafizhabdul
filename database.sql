@@ -27,3 +27,4 @@ INSERT INTO mahasiswa (npm, nama, program_studi, angkatan, email) VALUES
 ('240101020', 'Dewi Lestari', 'Rekayasa Perangkat Lunak', 2024, 'dewi.lestari@example.com')
 ON DUPLICATE KEY UPDATE npm=npm;
 
+show tables;
